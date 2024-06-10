@@ -1,0 +1,112 @@
+.navContainer {
+    width: 100%;
+    /* position: static; */
+}
+
+.nav1 {
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    /* position: sticky; */
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: space-between;
+    padding-right: 250px;
+    padding-left: 100px;
+}
+
+.navopt1{
+    display: flex;
+    gap: 30px;
+    height: 50px;
+}
+
+.navopt2{
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.navopt1 > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navopt1 > a:hover {
+    text-decoration: underline;
+}
+
+#bluey {
+    background-color: rgb(4, 4, 82);
+    color: white;
+    height: 90px;
+    width: 70px;
+    padding: 10px;
+}
+
+.navopt2 > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navopt2 > img {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.nav2{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, rgb(4, 4, 82), rgb(30, 30, 165), rgb(110, 119, 253) );
+    /* position: sticky; */
+    display: flex;
+    gap: 90px;
+}
+
+.nav2txt {
+    /* background-color: rgb(2, 2, 49); */
+    display: flex;
+    gap: 10px;
+}
+
+.nav2txt > img{
+    height: 80px;
+    width: 350px;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav2txt > a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.nav2pic{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.nav2pic > i {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 90px;
+    /* border: 1px solid black; */
+}
+
+.nav2pic > i:hover {
+    cursor: pointer;
+}
+
+#blue {
+    background-color: rgb(164, 164, 231);
+}
+
+

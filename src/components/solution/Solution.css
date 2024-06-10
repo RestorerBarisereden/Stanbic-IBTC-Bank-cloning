@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(228, 228, 228); */
+    font-family: sans-serif;
+}
+
+.solutionContainer{
+    height: 500px;
+    background-color: rgb(55, 55, 228);
+    display: flex;
+}
+
+.solution1 {
+    width: 50%;
+    line-height: 2;
+    padding-left: 180px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solution1 > h3 {
+    font-size: 23px;
+    color: white;
+}
+
+.solution1 > h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.solution1 > button {
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: rgb(100, 100, 248);
+    color: white;
+    border-radius: 10px;
+}
+
+.solution1 > button:hover {
+    background-color: rgb(96, 13, 173);
+}
+
+.solution2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.solutionBox {
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 80px;
+    border-radius: 10px;
+}
+
+.solutionBox > p {
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(72, 67, 77);
+    padding-top: 10px;
+    color: rgb(17, 17, 17);
+}
+
+.solutionBox > i {
+    padding-top: 10px;
+    font-size: 40px;
+    color: rgb(17, 17, 17);
+}
+
+.solutionBox:hover {
+    width: 250px;
+    height: 200px;
+    transition-duration: 0.5s;
+    padding: none;
+}

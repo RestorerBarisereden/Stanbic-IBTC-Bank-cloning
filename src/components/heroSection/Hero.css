@@ -1,0 +1,43 @@
+.heroContainer{
+    width: 100%;
+    display: flex;
+}
+
+.hero1{
+    background: linear-gradient(to right,  rgb(4, 4, 82), rgb(9, 10, 110), rgb(25, 25, 163));
+    padding-left: 180px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero1 > h2 {
+    font-size: 58px;
+    line-height: 1.2;
+    color: white;
+}
+
+.hero1 > p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hero1 > button {
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: rgb(100, 100, 248);
+    color: white;
+    border-radius: 10px;
+}
+
+.hero1 > button:hover {
+    cursor: pointer;
+    background-color: rgb(96, 13, 173);
+}x
+
+.hero2 {
+    box-shadow: 8px 10px 8px rgb(231, 230, 230);
+}
