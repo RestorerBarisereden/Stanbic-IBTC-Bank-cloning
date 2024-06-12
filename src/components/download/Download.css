@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(228, 228, 228); */
+    font-family: sans-serif;
+}
+
+.downloadPart {
+    background-color: rgb(244, 245, 247 );
+    padding-left: 160px;
+    padding-right: 160px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.downloadPart > h1 {
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0a2240;
+}
+
+.downloadApp {
+    width: 35%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.phonePic {
+    position: absolute;
+    right: 200px;
+    top: -70px;
+    z-index: 9;
+}

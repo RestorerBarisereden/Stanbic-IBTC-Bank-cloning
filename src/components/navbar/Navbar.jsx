@@ -1,6 +1,5 @@
 import React from 'react';
 import stanbic from '../../assets/stanbic.png'
-import person from '../../assets/login.png'
 import nigeria from '../../assets/nigeria.png'
 import "./Navbar.css"
 

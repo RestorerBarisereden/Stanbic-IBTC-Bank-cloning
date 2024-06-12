@@ -5,7 +5,6 @@ import "./Mission.css"
 const Mission = () => {
   return (
     <>
-      <div className='missionContainer'>
 
         <div className='corporate'>
             <div className='corporateContainer'>
@@ -15,7 +14,6 @@ const Mission = () => {
             </div>
         </div>
 
-      </div>
     </>
   )
 }

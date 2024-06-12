@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(228, 228, 228); */
+    font-family: sans-serif;
+}
+
+.contactContainer {
+    width: 100%;
+    display: flex;
+}
+
+.leftBody {
+    background: linear-gradient(#30a, #003890);
+    width: 50%;
+    padding: 30px 120px 30px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.general > h1 {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.report > h1 {
+    color: #fff;
+    font-weight: lighter;
+}
+.local {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.local > p {
+    color: #fff;
+    font-size: 10px;
+}
+
+.local > h6 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.rightBody {
+    width: 50%;
+    padding-right: 160px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.rightContent > h1 {
+    font-weight: lighter;
+}
+
+.rightContent > a {
+    font-size: 14px;
+    color: #30a;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.rightContent > button {
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: rgb(100, 100, 248);
+    color: white;
+    border-radius: 10px;
+}
+
+.rightContent > button:hover {
+    cursor: pointer;
+    background-color: rgb(96, 13, 173);
+}

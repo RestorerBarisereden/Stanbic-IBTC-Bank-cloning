@@ -36,8 +36,8 @@
 .hero1 > button:hover {
     cursor: pointer;
     background-color: rgb(96, 13, 173);
-}x
+}
 
 .hero2 {
-    box-shadow: 8px 10px 8px rgb(231, 230, 230);
+    box-shadow: 8px 10px 8px rgb(244, 245, 247 );
 }
